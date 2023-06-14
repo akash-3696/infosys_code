@@ -29,7 +29,10 @@ textng.xml
 
 
 How to Execute Test Cases:
+
 •	If using Eclipse IDE, run the test case by selecting Run as TestNG.
 •	We can run all test cases by using "mvn test" cammand in Command prompt.
+
 View Reports: 
+
 •	Check test reports in "test-output" folder inside the project once after running test cases.
