@@ -2,17 +2,17 @@
 
 Files used in Framework:
 	
-Base.java
+Base.java: 
 	This file contains multiple methods such as initializeBrowser() to launch the browser and takeScreenshot() method fo taking screenshot at the time of testCase Failure.
 		
-Festivals1.java
+Festivals1.java: 
 This file contains methods(tests) 
-	festivals():
+festivals():
 •	This method consists of multiple cases such as for getting the list of Festivals and then applied size on the list to get the number of festivals.
 •	Test 2 will list out main festivals with similar Sub Festival "Small Night In".
 •	Test 3 will list out main festivals with similar Sub Festival "LOL-palooza".
 				
-	festivalsTest3():
+festivalsTest3():
 •	This method will return subfestival by taking Main festival as input.
 				
 FestivalsTest2.java
@@ -26,3 +26,10 @@ Listeners
 
 textng.xml
 •	This file is basically uses to add parameters, listeners, cross-browser parameters, Groupings of different tests etc..
+
+
+How to Execute Test Cases:
+•	If using Eclipse IDE, run the test case by selecting Run as TestNG.
+•	We can run all test cases by using "mvn test" cammand in Command prompt.
+View Reports: 
+•	Check test reports in "test-output" folder inside the project once after running test cases.
